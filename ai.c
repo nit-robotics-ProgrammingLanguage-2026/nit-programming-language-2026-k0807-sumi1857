@@ -21,6 +21,5 @@ void to_polar(double x, double y, double *r, double *theta)
 {
     *r = sqrt(x * x + y * y);
 
-    /* わざと間違った実装 */
     *theta = atan(y / x) * 180.0 / M_PI;
 }
